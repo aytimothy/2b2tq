@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tbttq",
+  "name": "aytimothy's 2b2t Auto-Queue Mod",
+  "description": "Automatically queues for you on 2b2t (or any server, really).",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://aytimothy.xyz/mc-mods/2b2tq",
+  "updateUrl": "",
+  "authorList": ["aytimothy"],
+  "credits": "Fleyr",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
