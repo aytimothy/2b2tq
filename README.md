@@ -6,8 +6,6 @@ Automatically logs you into whatever server of your choice at a specific time wh
 
 By: aytimothy#0919
 
-Shoutout to the guys at [The Emperium](http://discord.gg/emperium)!
-
 ## Notes
 
 * `afkTimeout` is in seconds. Currently does nothing.  
