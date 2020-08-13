@@ -14,6 +14,6 @@ Shoutout to the guys at [The Emperium](http://discord.gg/emperium)!
 
 ## To-do
 
- [ ] Allow you to completely clear the number fields  
- [ ] AFK Checker (to see if you're actually there when you're at Queue 1)
- [ ] Tab menus and shortcut keys
+ - [ ] Allow you to completely clear the number fields  
+ - [ ] AFK Checker (to see if you're actually there when you're at Queue 1)
+ - [ ] Tab menus and shortcut keys
