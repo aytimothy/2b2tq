@@ -16,7 +16,7 @@ Shoutout to the guys at [The Emperium](http://discord.gg/emperium)!
 ## Building
 
 1. Clone
-2. Download the [Minecraft Forge Mod Development Kit (MDK)](https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-mdk.zip)
+2. Download the [Minecraft Forge Mod Development Kit (MDK)](https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-mdk.zip) for 1.12.2 v14.23.5.2854
 3. Extract any missing files in the MDK into the project.
 4. Follow the instructions in [README.txt](README.txt)
 5. Build (`gradlew build`)
