@@ -2,7 +2,7 @@
 
 ![https://i.imgur.com/52CXaBw.png](https://i.imgur.com/52CXaBw.png)
 
-Automatically logs you into whatever server of your choice.
+Automatically logs you into whatever server of your choice at a specific time while you're probably not awake to do it.
 
 By: aytimothy#0919
 
