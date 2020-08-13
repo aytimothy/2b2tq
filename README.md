@@ -8,6 +8,11 @@ By: aytimothy#0919
 
 Shoutout to the guys at [The Emperium](http://discord.gg/emperium)!
 
+## Notes
+
+* `afkTimeout` is in seconds. Currently does nothing.  
+* Date format is DD/MM/YYYY HH:MM:SS (British Style)
+
 ## Building
 
 1. Clone
