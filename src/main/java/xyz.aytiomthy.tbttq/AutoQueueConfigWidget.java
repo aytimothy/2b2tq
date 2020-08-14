@@ -33,9 +33,15 @@ public class AutoQueueConfigWidget {
             GuiScreen screen = e.getGui();
             FontRenderer fontRenderer = screen.mc.fontRenderer;
             if (AutoQueueConfig.enabled) {
-                Duration duration = Duration.between(LocalDateTime.now(), AutoQueueConfig.timestamp);
-                String timerText = DurationFormatUtils.formatDuration(duration.toMillis(), "H:mm:ss", true);
-                screen.drawString(fontRenderer, timerText, screen.width - 90, 10, 0xFFFFFFFF);
+                LocalDateTime now = LocalDateTime.now();
+                if (now.isAfter(AutoQueueConfig.timestamp)) {
+                    screen.drawString(fontRenderer, "Joining...", screen.width - 90, 10, 0xFFFFFFFF);
+                }
+                else {
+                    Duration duration = Duration.between(now, AutoQueueConfig.timestamp);
+                    String timerText = DurationFormatUtils.formatDuration(duration.toMillis(), "H:mm:ss", true);
+                    screen.drawString(fontRenderer, timerText, screen.width - 90, 10, 0xFFFFFFFF);
+                }
             }
             else {
                 screen.drawString(fontRenderer, "Idle...", screen.width - 90, 10, 0xFFFFFFFF);
