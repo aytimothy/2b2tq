@@ -20,7 +20,7 @@ public class AutoQueuer {
             minecraft.setServerData(serverEntry);
             net.minecraftforge.fml.client.FMLClientHandler.instance().connectToServer(returnScreen, serverEntry);
 
-            AutoQueueAFKCheck.enabled = AutoQueueConfig.enableAFKTimeout;
+            // AutoQueueAFKCheck.enabled = AutoQueueConfig.enableAFKTimeout;
         }
     }
 }
